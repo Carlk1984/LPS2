@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
 import { Brain, TrendingUp, Shield, Monitor, Zap, Clock, Users, BarChart3, CheckCircle, ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 

@@ -1,8 +1,7 @@
-import React from 'react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { DollarSign, TrendingUp, Calculator, FileText, CheckCircle, ArrowRight, PiggyBank, CreditCard, Banknote } from 'lucide-react'
+import { DollarSign, TrendingUp, Calculator, CheckCircle, ArrowRight, PiggyBank, CreditCard, Banknote } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 export default function FinancePage() {

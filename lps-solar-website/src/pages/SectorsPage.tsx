@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Factory, Wheat, ShoppingCart, CheckCircle, ArrowRight, Zap, Clock, DollarSign, Shield } from 'lucide-react'
+import { Factory, Wheat, ShoppingCart, CheckCircle, Zap, Clock, DollarSign, Shield } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 export default function SectorsPage() {
