@@ -246,6 +246,30 @@ export default function ProjectsPage() {
             </p>
           </div>
 
+          <div className="mb-12">
+            <Card className="bg-yellow-50 border-yellow-200">
+              <CardContent className="p-6">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0">
+                    <div className="bg-yellow-100 rounded-full p-2">
+                      <svg className="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="text-lg font-semibold text-yellow-800 mb-2">Illustrative Case Studies</h3>
+                    <p className="text-yellow-700">
+                      The following case studies are illustrative examples designed to demonstrate our capabilities and potential project outcomes. 
+                      These represent the types of projects we specialize in and the results we aim to achieve for our clients. 
+                      For information about our actual completed projects, please contact us directly.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
           <div className="space-y-20">
             {projects.map((project, index) => (
               <div key={project.id} className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}>

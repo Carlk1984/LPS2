@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { Label } from '@/components/ui/label'
-import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react'
+import { Mail, MapPin, Clock, Send } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 export default function ContactPage() {
@@ -160,19 +160,6 @@ export default function ContactPage() {
               <h2 className="text-3xl font-bold text-gray-900 mb-8">Get in Touch</h2>
               
               <div className="space-y-8">
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="flex items-center">
-                      <Phone className="h-6 w-6 text-blue-600 mr-2" />
-                      Call Us
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-2xl font-semibold text-gray-900 mb-2">+27 66 143 9477</p>
-                    <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
-                    <p className="text-gray-600">Saturday: 9:00 AM - 2:00 PM</p>
-                  </CardContent>
-                </Card>
 
                 <Card>
                   <CardHeader>
@@ -182,7 +169,7 @@ export default function ContactPage() {
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-lg font-semibold text-gray-900 mb-2">info@lightpathproperty.com</p>
+                    <p className="text-lg font-semibold text-gray-900 mb-2">info@lpssolar.co.za</p>
                     <p className="text-gray-600">We typically respond within 2 hours during business hours</p>
                   </CardContent>
                 </Card>
@@ -376,9 +363,8 @@ export default function ContactPage() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-              <Phone className="h-5 w-5 mr-2" />
-              Call Now: +27 66 143 9477
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100" asChild>
+              <Link to="/contact">Request Free Assessment</Link>
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600" asChild>
               <Link to="/projects">View Success Stories</Link>

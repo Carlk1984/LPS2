@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Sun, Phone, Mail, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react'
+import { Sun, Mail, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -51,12 +51,8 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-center">
-                <Phone className="h-4 w-4 mr-2" />
-                +27 66 143 9477
-              </li>
-              <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
-                info@lightpathproperty.com
+                info@lpssolar.co.za
               </li>
               <li className="flex items-start">
                 <MapPin className="h-4 w-4 mr-2 mt-1" />

@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Factory, Wheat, ShoppingCart, Sun, Zap, Battery, CheckCircle, ArrowRight, Phone, Mail, Brain, TrendingUp, Shield, Award } from 'lucide-react'
+import { Factory, Wheat, ShoppingCart, Sun, Zap, Battery, CheckCircle, ArrowRight, Mail, Brain, TrendingUp, Shield, Award } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 export default function HomePage() {
@@ -407,16 +407,11 @@ export default function HomePage() {
             </Button>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div>
-              <Phone className="h-8 w-8 mx-auto mb-2" />
-              <p className="font-semibold">Call Us</p>
-              <p className="text-blue-100">+27 66 143 9477</p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
             <div>
               <Mail className="h-8 w-8 mx-auto mb-2" />
               <p className="font-semibold">Email Us</p>
-              <p className="text-blue-100">info@lightpathproperty.com</p>
+              <p className="text-blue-100">info@lpssolar.co.za</p>
             </div>
             <div>
               <Factory className="h-8 w-8 mx-auto mb-2" />
